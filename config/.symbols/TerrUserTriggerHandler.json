@@ -1,0 +1,356 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "TerrUserTriggerHandler",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p58000002cmgMAAQ",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000002cmgMAAQ",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 5
+            },
+            "modifiers": [
+                "protected",
+                "override"
+            ],
+            "name": "beforeInsert",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 12
+            },
+            "modifiers": [
+                "protected",
+                "override"
+            ],
+            "name": "beforeUpdate",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 19
+            },
+            "modifiers": [
+                "protected",
+                "override"
+            ],
+            "name": "afterInsert",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "TerrUserTriggerHandler",
+    "namespace": null,
+    "parentClass": "TriggerHandler",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "TerrUserTriggerHandler",
+        "references": [],
+        "type": "TerrUserTriggerHandler"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 21
+            },
+            "modifiers": [],
+            "name": "tuIds",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "userIds",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "territoryWithRelatedAccountsMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "territoryWithRelatedUsersMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "territoryWithRelatedContactsSet",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "territory",
+            "references": [],
+            "type": "Territory__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "accMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "conSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "account",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 41
+            },
+            "modifiers": [],
+            "name": "ref",
+            "references": [],
+            "type": "Reference__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "userMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "terrUser",
+            "references": [],
+            "type": "TerrUser__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "accountShareList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "contactShareList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "allAcountsMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "allContactMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "territory",
+            "references": [],
+            "type": "Territory__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "newAccountMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "newUserMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "newContactSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 67
+            },
+            "modifiers": [],
+            "name": "user",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "accountShares",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 69
+            },
+            "modifiers": [],
+            "name": "contactShares",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "lsr",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

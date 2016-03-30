@@ -1,0 +1,43 @@
+34.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WORKFLOW,INFO
+17:22:08.62 (62838161)|EXECUTION_STARTED
+17:22:08.62 (62874734)|CODE_UNIT_STARTED|[EXTERNAL]|TRIGGERS
+17:22:08.62 (65416787)|CODE_UNIT_STARTED|[EXTERNAL]|01q58000000QPMS|TerrUserTrigger on TerrUser trigger event BeforeDelete for [a0358000001McgU]
+17:22:08.71 (71355313)|CUMULATIVE_LIMIT_USAGE
+17:22:08.71 (71355313)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+17:22:08.71 (71355313)|CUMULATIVE_LIMIT_USAGE_END
+
+17:22:08.62 (73177511)|CODE_UNIT_FINISHED|TerrUserTrigger on TerrUser trigger event BeforeDelete for [a0358000001McgU]
+17:22:08.62 (231707396)|CODE_UNIT_STARTED|[EXTERNAL]|01q58000000QPMS|TerrUserTrigger on TerrUser trigger event AfterDelete for [a0358000001McgU]
+17:22:08.232 (232734117)|CUMULATIVE_LIMIT_USAGE
+17:22:08.232 (232734117)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+17:22:08.232 (232734117)|CUMULATIVE_LIMIT_USAGE_END
+
+17:22:08.62 (233882002)|CODE_UNIT_FINISHED|TerrUserTrigger on TerrUser trigger event AfterDelete for [a0358000001McgU]
+17:22:08.62 (254751627)|CODE_UNIT_FINISHED|TRIGGERS
+17:22:08.62 (254762476)|EXECUTION_FINISHED

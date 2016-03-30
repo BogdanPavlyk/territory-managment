@@ -1,0 +1,419 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000002cXJZAA2",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000002cXJZAA2",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createAccountSharingRuleForUser",
+            "parameters": [
+                {
+                    "name": "accountMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "userOrGroup",
+                    "type": "User"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 13
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createAccountShareForAccountMap",
+            "parameters": [
+                {
+                    "name": "accountMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "userOrGroup",
+                    "type": "User"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 33
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createContactShareForContactSet",
+            "parameters": [
+                {
+                    "name": "contactSet",
+                    "type": "Set"
+                },
+                {
+                    "name": "userOrGroup",
+                    "type": "User"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 51
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createAccountShareForAccountList",
+            "parameters": [
+                {
+                    "name": "accountList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "userOrGroup",
+                    "type": "User"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 71
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "sharingInsertResult",
+            "parameters": [
+                {
+                    "name": "sharingRuleList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "accountMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "AccountShareUtilities",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 30,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "without sharing"
+        ],
+        "name": "AccountShareUtilities",
+        "references": [],
+        "type": "AccountShareUtilities"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "accountMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 88,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "userOrGroup",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "sharingRuleList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 88,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "accountMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 105,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "userOrGroup",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "sharingRuleList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "sharingRule",
+            "references": [],
+            "type": "AccountShare"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 79,
+                "line": 33
+            },
+            "modifiers": [],
+            "name": "contactSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 96,
+                "line": 33
+            },
+            "modifiers": [],
+            "name": "userOrGroup",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "sharingRuleList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "conId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "sharingRule",
+            "references": [],
+            "type": "ContactShare"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "accountList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 104,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "userOrGroup",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "sharingRuleList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "sharingRule",
+            "references": [],
+            "type": "AccountShare"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "sharingRuleList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 97,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "accountMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "lsr",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "sr",
+            "references": [],
+            "type": "SaveResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "err",
+            "references": [],
+            "type": "Error"
+        }
+    ]
+}

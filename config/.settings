@@ -1,0 +1,16 @@
+{
+    "projectName": "TerritoryManagment",
+    "username": "bogdan.pavlyk@gmail.com",
+    "id": "602128b0-e966-11e5-9f80-7d279b966834",
+    "namespace": "",
+    "environment": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "workspace": "C:\\Workspace",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}

@@ -1,0 +1,60 @@
+34.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WORKFLOW,INFO
+17:22:26.0 (82409)|EXECUTION_STARTED
+17:22:26.0 (123506)|CODE_UNIT_STARTED|[EXTERNAL]|TRIGGERS
+17:22:26.0 (168017)|CODE_UNIT_STARTED|[EXTERNAL]|01q58000000QPMS|TerrUserTrigger on TerrUser trigger event BeforeInsert for [new]
+17:22:26.0 (13138132)|SOQL_EXECUTE_BEGIN|[43]|Aggregations:0|SELECT Territory__c, User__c FROM TerrUser__c 
+17:22:26.0 (17174419)|SOQL_EXECUTE_END|[43]|Rows:0
+17:22:26.17 (17643883)|CUMULATIVE_LIMIT_USAGE
+17:22:26.17 (17643883)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+17:22:26.17 (17643883)|CUMULATIVE_LIMIT_USAGE_END
+
+17:22:26.0 (18850097)|CODE_UNIT_FINISHED|TerrUserTrigger on TerrUser trigger event BeforeInsert for [new]
+17:22:26.0 (96805311)|CODE_UNIT_STARTED|[EXTERNAL]|01q58000000QPMS|TerrUserTrigger on TerrUser trigger event AfterInsert for [a0358000001Mcge]
+17:22:26.0 (98931309)|SOQL_EXECUTE_BEGIN|[22]|Aggregations:0|SELECT Id FROM User WHERE Id IN (SELECT User__c FROM TerrUser__c WHERE Id = :tmpVar1)
+17:22:26.0 (104217225)|SOQL_EXECUTE_END|[22]|Rows:1
+17:22:26.0 (105699733)|SOQL_EXECUTE_BEGIN|[28]|Aggregations:2|SELECT Id, Name, (SELECT Id, Name FROM Accounts__r), (SELECT Id, User__c FROM TerrUsers__r) FROM Territory__c 
+17:22:26.0 (113396827)|SOQL_EXECUTE_END|[28]|Rows:1
+17:22:26.0 (114659328)|USER_DEBUG|[40]|ERROR|*** account.References__r: ()
+17:22:26.0 (114918305)|USER_DEBUG|[40]|ERROR|*** account.References__r: ()
+17:22:26.0 (115137332)|USER_DEBUG|[40]|ERROR|*** account.References__r: ()
+17:22:26.0 (127975922)|USER_DEBUG|[26]|INFO|*** sharingRule: AccountShare:{AccountId=001580000030QVGAA2, AccountAccessLevel=Read, OpportunityAccessLevel=None, CaseAccessLevel=None, UserOrGroupId=00558000000TjDaAAK}
+17:22:26.0 (128558382)|USER_DEBUG|[26]|INFO|*** sharingRule: AccountShare:{AccountId=001580000030QV7AAM, AccountAccessLevel=Read, OpportunityAccessLevel=None, CaseAccessLevel=None, UserOrGroupId=00558000000TjDaAAK}
+17:22:26.0 (128799588)|USER_DEBUG|[26]|INFO|*** sharingRule: AccountShare:{AccountId=001580000030QVHAA2, AccountAccessLevel=Read, OpportunityAccessLevel=None, CaseAccessLevel=None, UserOrGroupId=00558000000TjDaAAK}
+17:22:26.0 (129152580)|DML_BEGIN|[73]|Op:Insert|Type:AccountShare|Rows:3
+17:22:26.0 (281889337)|DML_END|[73]
+17:22:26.0 (282639703)|USER_DEBUG|[98]|INFO|*** All inserted: 
+17:22:26.0 (282704491)|USER_DEBUG|[98]|INFO|*** All inserted: 
+17:22:26.0 (282757308)|USER_DEBUG|[98]|INFO|*** All inserted: 
+17:22:26.282 (282881206)|CUMULATIVE_LIMIT_USAGE
+17:22:26.282 (282881206)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 3 out of 100
+  Number of query rows: 2 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 3 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+17:22:26.282 (282881206)|CUMULATIVE_LIMIT_USAGE_END
+
+17:22:26.0 (284391569)|CODE_UNIT_FINISHED|TerrUserTrigger on TerrUser trigger event AfterInsert for [a0358000001Mcge]
+17:22:26.0 (303681811)|CODE_UNIT_FINISHED|TRIGGERS
+17:22:26.0 (303705160)|EXECUTION_FINISHED

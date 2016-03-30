@@ -1,0 +1,121 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "TerritoryTriggerHandler",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p58000002d8YzAAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000002d8YzAAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "beforeInsert",
+            "parameters": [
+                {
+                    "name": "triggerNew",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 11
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "beforeUpdate",
+            "parameters": [
+                {
+                    "name": "triggerNew",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "TerritoryTriggerHandler",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "TerritoryTriggerHandler",
+        "references": [],
+        "type": "TerritoryTriggerHandler"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "triggerNew",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "triggerNew",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 83,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map"
+        }
+    ]
+}

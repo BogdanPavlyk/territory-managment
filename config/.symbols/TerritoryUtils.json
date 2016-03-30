@@ -1,0 +1,193 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000002dJpOAAU",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000002dJpOAAU",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkFieldsForUniquenessIfInsert",
+            "parameters": [
+                {
+                    "name": "isInsert",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "triggerNew",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 41
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "addUniquenessErrors",
+            "parameters": [
+                {
+                    "name": "territoryParents",
+                    "type": "Map"
+                },
+                {
+                    "name": "territoryNames",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "TerritoryUtils",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "TerritoryUtils",
+        "references": [],
+        "type": "TerritoryUtils"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "isInsert",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 91,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "triggerNew",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 125,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "territoryParents",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "territoryNames",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "territory",
+            "references": [],
+            "type": "Territory__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 41
+            },
+            "modifiers": [],
+            "name": "territoryParents",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 79,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "territoryNames",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "territory",
+            "references": [],
+            "type": "Territory__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "newterritory",
+            "references": [],
+            "type": "Territory__c"
+        }
+    ]
+}

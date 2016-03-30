@@ -1,0 +1,86 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "OpportunityTriggerHandler",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p58000002d7eHAAQ",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000002d7eHAAQ",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 7
+            },
+            "modifiers": [
+                "protected",
+                "override"
+            ],
+            "name": "beforeUpdate",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 13
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "setLostOppsToZero",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "OpportunityTriggerHandler",
+    "namespace": null,
+    "parentClass": "TriggerHandler",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "OpportunityTriggerHandler",
+        "references": [],
+        "type": "OpportunityTriggerHandler"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        }
+    ]
+}

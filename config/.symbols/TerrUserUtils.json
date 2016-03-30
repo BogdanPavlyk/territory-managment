@@ -1,0 +1,163 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p58000002dJgtAAE",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p58000002dJgtAAE",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkFieldsForUniquenessIfInsert",
+            "parameters": [
+                {
+                    "name": "isInsert",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 41
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "addUniquenessErrors",
+            "parameters": [
+                {
+                    "name": "terrUserTerritories",
+                    "type": "Map"
+                },
+                {
+                    "name": "terrUserUsers",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "TerrUserUtils",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "TerrUserUtils",
+        "references": [],
+        "type": "TerrUserUtils"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "isInsert",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "terrUserTerritories",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "terrUserUsers",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "terrUser",
+            "references": [],
+            "type": "TerrUser__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 41
+            },
+            "modifiers": [],
+            "name": "terrUserTerritories",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 107,
+                "line": 41
+            },
+            "modifiers": [],
+            "name": "terrUserUsers",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "terrUser",
+            "references": [],
+            "type": "TerrUser__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "newterrUser",
+            "references": [],
+            "type": "TerrUser__c"
+        }
+    ]
+}
